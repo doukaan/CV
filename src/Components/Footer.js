@@ -3,7 +3,7 @@ import { Facebook, Twitter, Linkedin, Dribbble, Mail, Phone, MapPin } from 'luci
 
 export default function Footer() {
     return (
-        <footer className="bg-[#1A1A1A] text-white py-16">
+        <footer className="bg-[#202020] text-white py-16">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex flex-col items-center text-center space-y-8">
                     <h2 className="text-3xl md:text-4xl font-bold mb-2">Contact Me</h2>

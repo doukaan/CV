@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div className="min-h-screen bg-[#1A1A1A] p-2 sm:p-6 md:p-8 lg:p-12 flex items-center justify-center">
+        <div className="min-h-screen bg-[#202020] p-2 sm:p-6 md:p-8 lg:p-12 flex items-center justify-center">
             <div className="flex flex-col-reverse md:flex-row items-center justify-center md:justify-between max-w-6xl w-full">
                 <div className="flex flex-col gap-3 md:gap-6 max-w-2xl md:pl-4 lg:pl-8 mt-6 md:mt-0 text-center md:text-left">
                     <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-[#FF1A1A]">
@@ -20,7 +20,7 @@ export default function About() {
                 </div>
                 <div className="md:ml-8 lg:ml-12">
                     <img
-                        src="/Images/Personal.jpg"
+                        src="/İmages/Personal.jpg"
                         alt="hero"
                         width={350}
                         height={300}

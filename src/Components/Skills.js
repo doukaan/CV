@@ -4,7 +4,7 @@ import { MdOutlineDesignServices } from 'react-icons/md';
 
 function Skills() {
     return (
-        <div className="min-h-screen bg-[#1A1A1A] flex flex-col items-center justify-center p-8">
+        <div className="min-h-screen bg-[#202020] flex flex-col items-center justify-center p-8">
             <div className="max-w-7xl w-full">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="col-span-1">
