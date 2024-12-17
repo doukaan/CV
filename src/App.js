@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Footer from './Components/Footer';
+import Referances from './Components/Referances';
 function App() {
   return (
       <div className="bg-[#202020]">
@@ -15,6 +16,9 @@ function App() {
         <div id="Skills">
           <Skills />
         </div >
+        <div>
+          <Referances/>
+        </div>
           <div id="Footer">
               <Footer />
           </div>
