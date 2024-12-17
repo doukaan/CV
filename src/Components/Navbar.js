@@ -22,6 +22,9 @@ export default function Navbar() {
                     <a href="#Skills" className="btn btn-outline text-white text-lg hover:text-[#e40f31]">
                         Skills
                     </a>
+                    <a href="#Referances" className="btn btn-outline text-white text-lg hover:text-[#e40f31]">
+                        Referance
+                    </a>
                     <a href="#Footer" className="btn btn-outline text-white text-lg hover:text-[#e40f31]">
                         Contact
                     </a>

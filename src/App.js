@@ -16,7 +16,7 @@ function App() {
         <div id="Skills">
           <Skills />
         </div >
-        <div>
+        <div id='Referances'>
           <Referances/>
         </div>
           <div id="Footer">
