@@ -1,6 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function About() {
+    const [displayText, setDisplayText] = useState('');
+    const fullText = "Hello, I'm Doğu Kaan Ilgaz. I'm a third-year student at Trakya University, studying Management Information Systems, and I am a web developer.";
+
+    useEffect(() => {
+        let currentText = '';
+        let index = 0;
+        
+        const typeWriter = () => {
+            if (index < fullText.length) {
+                currentText += fullText.charAt(index);
+                setDisplayText(currentText);
+                index++;
+                
+                // Adjust typing speed here (milliseconds between characters)
+                setTimeout(typeWriter, 50);
+            }
+        };
+        
+        typeWriter();
+    }, []);
+
     const handleDownloadCV = () => {
         const link = document.createElement('a');
         link.href = '/DoguKaanIlgaz.pdf';
@@ -21,8 +42,8 @@ export default function About() {
                         Web & Frontend Developer
                     </h2>
                     <p className="text-xs sm:text-sm md:text-lg lg:text-xl max-w-xl leading-relaxed text-gray-300 px-4 md:px-0">
-                        Hello, I'm Doğu Kaan Ilgaz. I'm a third-year student at Trakya University,
-                        studying Management Information Systems, and I am a web developer.
+                        {displayText}
+                        <span className="animate-blink">|</span>
                     </p>
                     <button
                         onClick={handleDownloadCV}
@@ -44,3 +65,15 @@ export default function About() {
         </div>
     );
 }
+
+// Add this to your global CSS or Tailwind config
+const additionalStyles = `
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.animate-blink {
+    animation: blink 0.7s infinite;
+}
+`;
