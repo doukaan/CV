@@ -6,7 +6,7 @@ function Referances() {
             id: 1,
             title: "TGL ELECTRİC",
             description: "TGL Electric için modern ve kullanıcı dostu bir web sitesi tasarımı gerçekleştirdim. Site, elektrik altyapı hizmetlerini tanıtırken hızlı ve duyarlı bir kullanıcı deneyimi sunarak müşterilerin bilgiye kolay erişimini sağlıyor.",
-            image: "/İmages/tglelogo.png", 
+            image: "/İmages/tgl.png", 
             link: "https://cerkezkoytglelektrik.com.tr/"
         },
         {
