@@ -3,8 +3,8 @@ import React from 'react';
 export default function About() {
     const handleDownloadCV = () => {
         const link = document.createElement('a');
-        link.href = '/DoguKaanIlgaz_CV.pdf';
-        link.download = 'DoguKaanIlgaz_CV.pdf';
+        link.href = '/DoguKaanIlgaz.pdf';
+        link.download = 'DoguKaanIlgaz.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
